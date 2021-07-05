@@ -2,7 +2,7 @@
 	"python.testing.unittestArgs": [
 		"-v",
 		"-s",
-		"./leet_code/3_longest_substring",
+		"./leet_code/9_is_palindrome",
 		"-p",
 		"test_*.py"
 	],
