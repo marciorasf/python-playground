@@ -2,7 +2,7 @@
 	"python.testing.unittestArgs": [
 		"-v",
 		"-s",
-		"./understanding_algorithms",
+		"./leet_code/3_longest_substring",
 		"-p",
 		"test_*.py"
 	],
