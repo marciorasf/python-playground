@@ -2,7 +2,7 @@
 	"python.testing.unittestArgs": [
 		"-v",
 		"-s",
-		"./leet_code/7_reverse_integer",
+		"./leet_code/8_string_to_integer",
 		"-p",
 		"test_*.py"
 	],
