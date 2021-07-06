@@ -35,6 +35,22 @@ class TestSolution(unittest.TestCase):
 
         self.assertEqual(result, expected_result)
 
+    def test_case_5(self):
+        height = [1, 2, 4, 3]
+        expected_result = 4
+
+        result = max_area(height)
+
+        self.assertEqual(result, expected_result)
+
+    def test_case_6(self):
+        height = [1, 3, 2, 5, 25, 24, 5]
+        expected_result = 24
+
+        result = max_area(height)
+
+        self.assertEqual(result, expected_result)
+
 
 if __name__ == '__main__':
     unittest.main()

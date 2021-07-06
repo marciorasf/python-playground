@@ -11,12 +11,18 @@ def max_area(height: list[int]) -> int:
     if n_lines <= 1:
         return 0
 
+    front = 0
+    back = n_lines-1
     max_area = 0
 
-    for first_line_idx in range(n_lines - 1):
-        for second_line_idx in range(first_line_idx + 1, n_lines):
-            area = calc_area(
-                first_line_idx, height[first_line_idx], second_line_idx, height[second_line_idx])
-            max_area = max(max_area, area)
+    while front < back:
+        area = calc_area(
+            front, height[front], back, height[back])
+        max_area = max(max_area, area)
+
+        if height[front] < height[back]:
+            front += 1
+        else:
+            back -= 1
 
     return max_area
