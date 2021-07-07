@@ -2,7 +2,7 @@
 	"python.testing.unittestArgs": [
 		"-v",
 		"-s",
-		"./leet_code/12_integer_to_roman",
+		"./leet_code/14_longest_common_prefix",
 		"-p",
 		"test_*.py"
 	],
