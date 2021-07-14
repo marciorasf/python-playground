@@ -2,7 +2,7 @@
 	"python.testing.unittestArgs": [
 		"-v",
 		"-s",
-		"./shapes",
+		"./leet_code/1144_decrease_elements_to_make_array_zigzag",
 		"-p",
 		"test_*.py"
 	],
